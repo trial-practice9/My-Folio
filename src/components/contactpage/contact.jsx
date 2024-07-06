@@ -7,6 +7,18 @@ import React, { useRef } from 'react';
 import designImg from '../../assets/design.png'
 function ContactPage() {
 
+ const instaOpen = () =>{
+
+   window.open('https://www.instagram.com/__programmer__code.hack__?igsh=MTFrbXUxaWc1dHZ1bQ==', '_blank', 'noopener,noreferrer');
+    
+  }
+
+  const githubOpen = () =>{
+
+   window.open('https://github.com/code-web-world?fbclid=PAZXh0bgNhZW0CMTEAAab6C2xYRdPZxqo4cp8C2fMKWhPNfRbjqwebN95zH74A2L50uuKiPUrUmDY_aem_AT4TK9i2c6ZwiglSPkOuolON9zc_U6h94fXfEuuOAvHQ93vTgklo7pe38z2aA7M6T16gZGWZYFeZ6wEzrLExa8Xn', '_blank', 'noopener,noreferrer');
+    
+  }
+
 
 
   const form = useRef();
@@ -58,8 +70,8 @@ const sendEmail = (e) => {
 <div className={styles['social-info']}>
   
   
-  <div className={styles['Sicons']}><FaInstagram className={styles['Sicon']}/></div>
-      <div className={styles['Sicons']}><FaGithub className={styles['Sicon']}/></div>
+  <div className={styles['Sicons']}><FaInstagram className={styles['Sicon']} onClick={instaOpen}/></div>
+      <div className={styles['Sicons']}><FaGithub className={styles['Sicon']} onClick={githubOpen}/></div>
       <div className={styles['Sicons']}><FaLinkedin className={styles['Sicon']}/>
   </div>
     
