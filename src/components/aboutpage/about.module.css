@@ -54,7 +54,8 @@
 
 .box2 div{
   height:66%;
-  padding:20px
+  padding:20px;
+  overflow:scroll;
 }
 
 
