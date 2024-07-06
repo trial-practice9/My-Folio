@@ -1,0 +1,23 @@
+footer{
+  
+  width:98.7%;
+  position:relative;
+  bottom:20px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  
+
+}
+
+
+#my,#folio{
+  display:inline-block;
+
+  
+}
+
+#folio{
+  color:#6b70ff
+}
+

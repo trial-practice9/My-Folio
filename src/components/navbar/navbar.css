@@ -1,0 +1,194 @@
+.navbar{
+  width:99.8%;
+  height:80px;
+  transition:var(--changing);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position:fixed;
+  top:0px;
+  z-index:2;
+  margin-bottom:50px;
+  background-color:var(--background);
+}
+
+
+
+.active{
+  color:#6b70ff;
+  border-bottom:solid 2px #6b70ff;
+  border-radius:3px
+}
+
+.mobilenav{
+  display:none;
+  transition:var(--changing);
+}
+
+.name{
+  /*border:solid 2px white;*/
+  display:flex;
+  align-items:center;
+  justify-content:centre;
+  margin-left:2.7rem
+}
+
+#my,.folio{
+  display:inline-block;
+  font-size:30px;
+  color:var(--big-text);
+  transition:var(--changing);
+  
+  
+  
+}
+
+.folio{
+  color:#6b70ff;
+  
+}
+
+.navbar ul{
+  width:45%;
+  padding:0;
+  display:flex;
+  justify-content:space-between;
+  list-style:none;
+  align-items:center;
+  
+  
+}
+
+a{
+  text-decoration:none;
+  font-size:20px;
+  color:var(--small-text)
+}
+
+.menulist{
+  display:none;
+  transition:var(--changing);
+  
+}
+
+.theme-icon{
+  margin-left:5px;
+  margin-top:5px;
+}
+
+@keyframes move{
+  0%{
+    transform:scale(0.5)
+  }
+  100%{
+    transform:scale(1)
+  }
+}
+.talk{
+  
+  color:var(--btn-text);
+  background-color:var(--btn-bg);
+  height:42px;
+  width:130px;
+  border-radius:15px;
+  border:none;
+  transition:0.4s;
+  animation:mojve 1s ease forwards;
+  transition:var(--changing);
+  margin-right:2.8rem
+
+  
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+  .talk{
+    height:40px;
+    margin-right:0;
+    
+  }
+   .navbar{
+     display:none
+   }
+
+   .mobilenav{
+     
+     padding-right:25%;
+     position:fixed;
+     top:0px;
+     /*padding-right:50vh;*/
+     width:99.8%;
+     height:80px;
+     display:flex;
+     justify-content:space-between;
+     background-color:var(--background);
+     align-items:center;
+     z-index:2;
+    
+   }
+
+  .name2{
+    /*border:solid 2px white;*/
+    display:flex;
+    align-items:center;
+    justify-content:centre;
+    z-index:2;
+    margin-left:1.2rem;
+    
+  }
+
+  #my,.folio{
+  display:inline-block;
+  font-size:30px;
+  
+  
+}
+
+
+
+  .menubar{
+    height:45px ;
+    width:45px;
+    margin-right:1.2rem;
+    color:var(--big-text);
+    transition:all 1s
+   /* margin-right:35px;*/
+    
+  
+  }
+
+  .menulist{
+    /*/padding:15px;*/
+    
+    width:100%;
+    padding-bottom:20px;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    gap:30px;
+    position:fixed;
+    top:20px;
+    background-color:var(--background);
+    z-index:1;
+    
+  
+   }
+
+  .in{
+     transition:all 1s;
+    transform:translateY(60px);
+  }
+
+  
+
+
+.out{
+  transition:all 1s;
+  transform:translateY(-300px);
+}
+
+  
+
+}

@@ -1,0 +1,154 @@
+.container{
+  
+  width:99.6%;
+  height:860px;/*680px*/
+  display:grid;
+  gap:20px;
+  grid-template-rows:repeat(2,1fr);
+  grid-template-columns:repeat(3,1fr);
+  
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.b-text {
+  text-align:center;
+  color:#6b70ff;
+  animation: blink 1s infinite;
+}
+
+
+.project-box{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  background-color:var(--boxes);
+  box-shadow:var(--outline);
+  border-radius:40px;
+  height:400px;
+  padding:7px
+}
+
+.img-box{
+  width:100%;
+  max-height:200px;
+  height:200px;
+  overflow:hidden;
+  border-radius:40px;
+  border:solid 2px #6b70ff
+  
+  
+}
+
+.img-box img{
+  width:100%;
+  
+}
+
+.project-box h3{
+  margin:16px
+}
+
+.tech-stack{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+  justify-content:center
+}
+
+.tech-stack span{
+  border:solid 1px black ;
+  padding:5px;
+  border-radius:8px;
+  width:97px;
+  text-align:center
+  
+}
+.link-box{
+  margin-top:20px;
+  display:flex;
+  width:80%;
+  justify-content:space-evenly
+}
+.link-box div{
+  box-shadow:var(--boxes-item-outline);
+  height:40px;
+  width:40px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:50%;
+  transition:0.5s
+}
+
+.link-box div:hover{
+  background-color:var(--big-text);
+  color:var(--background)
+}
+.icon{
+  height:30px;
+  width:30px;
+}
+
+
+/*
+  
+}
+
+@media only screen and (max-width: 770px) {
+  
+  .container{
+    flex-wrap:nowrap;
+   
+    }
+  
+}*/
+
+@media only screen and (max-width: 870px) {
+  .container{
+    height:1280px;
+    place-items:center;
+    grid-template-rows:repeat(3,1fr);
+    grid-template-columns:repeat(2,1fr);
+    margin-bottom:70px
+    
+    }
+
+  .project-box{
+    width:300px
+  }
+
+}
+
+@media only screen and (max-width: 715px) {
+ 
+  .project-box{
+    width:95%
+  }
+    
+
+  
+}
+
+@media (max-width: 580px) {
+ 
+  .container{
+    height:2590px;
+    place-items:center;
+    grid-template-rows:repeat(6,1fr);
+    grid-template-columns:repeat(1,1fr);
+    margin-bottom:70px
+
+    }
+
+  .project-box{
+    width:300px
+  }
+}

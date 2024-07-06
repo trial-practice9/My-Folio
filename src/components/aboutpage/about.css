@@ -1,0 +1,7 @@
+.common{
+  border-radius:40px;
+  box-shadow:var(--outline);
+  background-color:var(--boxes);
+  transition:var(--changing);
+  
+}

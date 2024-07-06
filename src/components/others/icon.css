@@ -1,0 +1,13 @@
+.icons{
+  margin:5%;
+  margin-left:5%;
+  display:flex;
+  flex-wrap:wrap;
+  
+}
+
+.icons img{
+  margin:1.5%;
+  height:35px;
+  width:35px
+}

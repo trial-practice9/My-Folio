@@ -1,0 +1,169 @@
+.container{
+  display:flex;
+}
+
+.form{
+  width:60%;
+  padding-bottom:30px;
+  box-shadow:var(--outline);
+  background-color:var(--boxes);
+  border-radius:40px;
+  position:relative
+}
+
+form{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  align-items:center
+}
+.text{
+  
+  margin-bottom:40px;
+  padding-left:35px;
+  
+}
+.text h1{
+  display:inline-block;
+  margin-bottom:0;
+  margin-right:10px
+}
+
+.form img{
+  position:absolute;
+  right:40px
+}
+input{
+  width:90%;
+  height:38px;
+  border-radius:10px;
+  border:none;
+  background-color:var(--boxes-item);
+  color:var(--big-text);
+  padding-left:8px;
+  box-shadow:var(--boxes-item-outline)
+}
+
+textarea{
+  border:none;
+  width:90%;
+  min-width:90%;
+  max-width:90%;
+  height:200px;
+  max-height:200px;
+  min-height:200px;
+  border-radius:10px;
+  background-color:var(--boxes-item);
+  color:var(--big-text);
+  padding-left:8px;
+  padding-top:8px;
+  box-shadow:var(--boxes-item-outline)
+}
+
+.send-btn{
+  width:90%;
+  height:40px;
+  color:var(--btn-text);
+  background-color:var(--contact-btn-bg);
+  box-shadow:var(--boxes-item-outline);
+  border-radius:10px;
+  border:none;
+  transition:0.4s;
+  animation:mojve 1s ease forwards;
+  transition:var(--changing);
+  
+  
+}
+
+.send-btn:hover,.send-btn:active{
+  
+  color:black;
+  background-color:#f0f5ff;
+}
+.info{
+  display:flex
+}
+.email{
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  
+}
+
+.email p{
+  color:#818181;
+  margin:0
+}
+
+.email a{
+  color:var(--big-text)
+}
+.contact-info{
+  display:flex;
+  flex-direction:column;
+  
+  margin-left:25px
+  
+}
+
+.contact-icon{
+  height:40px;
+  background-color:var(--boxes);
+  width:40px;
+  box-shadow:var(--boxes-item-outline);
+  padding:15px;
+  border-radius:10px;
+  margin:10px
+  
+}
+.icon{
+  height:100%;
+  width:100%
+}
+
+.social-info{
+  margin-top:29px;
+  display:flex;
+  gap:30px;
+}
+
+.Sicons{
+  box-shadow:var(--boxes-item-outline);
+  border-radius:20px;
+  height:70px;
+  width:70px;
+  display:flex;
+  justify-content:center;
+  align-items:center
+}
+
+.Sicon{
+  height:70%;
+  width:70%;
+  transition:1s
+}
+
+.Sicons:hover,.Sicons:active{
+  background-color:var(--big-text);
+  color:var(--background)
+}
+
+@media only screen and (max-width: 840px) {
+  .container{
+    flex-direction:column;
+    gap:30px
+  }
+  .form{
+    width:100%
+  }
+
+  .contact-info{
+    margin:20px 0 70px 0;
+
+  }
+}
+@media (max-width: 500px) {
+  
+
+  
+}
