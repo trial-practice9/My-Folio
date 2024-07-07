@@ -53,7 +53,7 @@
 }
 
 .box2 div{
-  height:66%;
+  height:69%;
   padding:20px;
   overflow:scroll;
 }
@@ -61,7 +61,7 @@
 
 .box2 div p{
   margin:0;
-  line-height:1.5rem;
+  line-height:1.3rem;
   color:var(--big-text);
   
   
