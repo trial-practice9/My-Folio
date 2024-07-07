@@ -36,7 +36,7 @@ function AboutPage(){
         <h1>MY-SUMMARY</h1>
       <div className={`${styles['bo2']} common` }>
 
-          <p>I Am Raunak 🧒, A Dedicated and Passionate Web Developer 💻 With A Strong Background In Creating Visually Appealing, Highly Functional Websites And Web Applications ✨🚀 With 2 Years Of Experience, I Have Developed A Keen Eye For Detail And A Deep Understanding Of Both Front-end And Back-end Technologies 👨‍💻🏆💻 And I Don't Like To Be A Specific Language 🙂 ,I Love Working In Different Languages 💻👨‍💻 And Exploring New 🚀✨</p></div>
+          <p>I Am Raunak 🧒, A Dedicated and Passionate Web Developer 💻 With A Strong Background In Creating Visually Appealing, Highly Functional Websites And Web Applications With 2 Years Of Experience, I Have Developed A Keen Eye For Detail And A Deep Understanding Of Both Front-end And Back-end Technologies And I Don't Like To Be A Specific Language,I Love Working In Different Languages And Exploring New</p></div>
         </div>
         
         </div>
