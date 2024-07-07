@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
+
+body{
+  background-color:var(--background);
+  user-select:none;
+  color:var(--big-text);
+  margin:0;
+  padding:0;
+  transition:var(--changing);
+  font-family: 'Raleway', sans-serif;
+  
+}
+
 .content *{
   font-family: 'Poppins', sans-serif;
   margin:0;
