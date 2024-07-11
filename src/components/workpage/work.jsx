@@ -48,11 +48,11 @@ projectLink='https://code-web-world.github.io/Search-Your-Word/'
 
               </ProjectBox>
 
-              <ProjectBox imgUrl={project5} projectName='Cryto Website'
-        repoLink='https://github.com/code-web-world/Crypto-Website-.git'
-        projectLink='https://code-web-world.github.io/Crypto-Website-/'
+              <ProjectBox imgUrl={project5} projectName='Image Editor'
+        repoLink='https://github.com/code-web-world/Image-Editor.git'
+        projectLink='https://raunak-image-editor.vercel.app/'
         >
-                <span id='html'>HTML</span><span id='css'>CSS</span><span id='js'>JavaScript</span>
+                <span id='html'>HTML</span><span id='css'>CSS</span><span id='react'>ReactJs</span>
 
               </ProjectBox>
                   
