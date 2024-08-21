@@ -12,7 +12,7 @@ import workImg from '../../assets/work.png'
 function HomePage(){
   const instaOpen = () =>{
 
-   window.open('https://www.instagram.com/__programmer__code.hack__?igsh=MTFrbXUxaWc1dHZ1bQ==', '_blank', 'noopener,noreferrer');
+   window.open('https://www.instagram.com/_programmer.raunak_?igsh=NHc4cTVmamc1N3oy', '_blank', 'noopener,noreferrer');
     
   }
 
