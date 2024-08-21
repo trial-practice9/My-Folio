@@ -21,7 +21,7 @@ function AboutPage(){
   
   const githubOpen = () =>{
 
-   window.open('https://github.com/code-web-world?fbclid=PAZXh0bgNhZW0CMTEAAab6C2xYRdPZxqo4cp8C2fMKWhPNfRbjqwebN95zH74A2L50uuKiPUrUmDY_aem_AT4TK9i2c6ZwiglSPkOuolON9zc_U6h94fXfEuuOAvHQ93vTgklo7pe38z2aA7M6T16gZGWZYFeZ6wEzrLExa8Xn', '_blank', 'noopener,noreferrer');
+   window.open('https://github.com/Programmer-Raunak', '_blank', 'noopener,noreferrer');
     
   }
   return(
