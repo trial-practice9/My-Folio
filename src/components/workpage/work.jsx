@@ -16,7 +16,7 @@ function WorkPage() {
       <div className={styles['container']}>
        
           <ProjectBox imgUrl={project1} projectName='Admin Pannel Dashboard'
-repoLink='https://github.com/code-web-world/Responsive-Admin-Panel-Dashboard-.git'
+repoLink='https://github.com/programmer-raunak/Responsive-Admin-Panel-Dashboard-.git'
 projectLink='https://programmer-raunak.github.io/Responsive-Admin-Panel-Dashboard-/collapsible-menu/index.html'
 >
             <span id='html'>HTML</span><span id='css'>CSS</span><span id='js'>JavaScript</span><span id='chart'>ApexChartsJs</span>
