@@ -17,7 +17,7 @@ function WorkPage() {
        
           <ProjectBox imgUrl={project1} projectName='Admin Pannel Dashboard'
 repoLink='https://github.com/code-web-world/Responsive-Admin-Panel-Dashboard-.git'
-projectLink='https://code-web-world.github.io/Responsive-Admin-Panel-Dashboard-/collapsible-menu/index.html'
+projectLink='https://programmer-raunak.github.io/Responsive-Admin-Panel-Dashboard-/collapsible-menu/index.html'
 >
             <span id='html'>HTML</span><span id='css'>CSS</span><span id='js'>JavaScript</span><span id='chart'>ApexChartsJs</span>
           </ProjectBox>
@@ -60,7 +60,7 @@ projectLink='https://programmer-raunak.github.io/Search-Your-Word/'
               
                         <ProjectBox imgUrl={project6} projectName='Wall Clock'
         repoLink='https://github.com/code-web-world/Wall-Clock.git'
-        projectLink='https://code-web-world.github.io/Wall-Clock/index.html'
+        projectLink='https://programmer-raunak.github.io/Wall-Clock/index.html'
         >
                 <span id='html'>HTML</span><span id='css'>CSS</span><span id='js'>JavaScript</span>
 
