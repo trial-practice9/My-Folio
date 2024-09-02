@@ -26,13 +26,13 @@ projectLink='https://code-web-world.github.io/Responsive-Admin-Panel-Dashboard-/
                   <ProjectBox imgUrl={project2}
 projectName='NFT MARKET-PLACE WEBSITE'
         repoLink='https://github.com/code-web-world/NFT-Market-Place-website-.git'
-        projectLink='https://code-web-world.github.io/NFT-Market-Place-website-/#top'
+        projectLink='https://programmer-raunak.github.io/NFT-Market-Place-website-/'
         >
                     <span id='html'>HTML</span><span id='css'>CSS</span><span id='js'>JavaScript</span>
                   </ProjectBox>
                 <ProjectBox imgUrl={project3} projectName='Search Your Words'
 repoLink='https://github.com/code-web-world/Search-Your-Word.git'
-projectLink='https://code-web-world.github.io/Search-Your-Word/'
+projectLink='https://programmer-raunak.github.io/Search-Your-Word/'
 >
         <span id='html'>HTML</span><span id='css'>CSS</span><span id='js'>JavaScript</span>
       
@@ -42,7 +42,7 @@ projectLink='https://code-web-world.github.io/Search-Your-Word/'
         
         <ProjectBox imgUrl={project4} projectName='Voice Assistant'
         repoLink='https://github.com/code-web-world/Voice-Assistant-.git'
-        projectLink='https://code-web-world.github.io/Voice-Assistant-/'
+        projectLink='https://programmer-raunak.github.io/Voice-Assistant-/'
         >
                 <span id='html'>HTML</span><span id='css'>CSS</span><span id='js'>JavaScript</span>
 
