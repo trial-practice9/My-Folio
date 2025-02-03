@@ -26,7 +26,7 @@ img{
   --input-bg:#6b70ff
 }
 
-[theme='light']{
+[theme='dark']{
   --background:#f0f5ff;
   --big-text:black;
   --small-text:#8a8a8a;
@@ -42,7 +42,7 @@ img{
   
 }
 
-[theme='dark']{
+[theme='light']{
   --background:#000000;
   --big-text:white;
   --small-text:#ffffff;
