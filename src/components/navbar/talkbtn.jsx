@@ -22,8 +22,8 @@ function TalkBtn() {
   };
 
   const btnText = theme === 'dark' 
-    ? <>Light Mode <FaSun /></>
-    : <>Dark Mode <FaMoon /></>;
+    ? <>Dark Mode <FaMoon /></>
+    : <>Light Mode <FaSun /></>;
 
   return (
     <button className='talk' onClick={toggle}>{btnText}</button>
