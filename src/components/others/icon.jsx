@@ -11,7 +11,6 @@ function Icons() {
 
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"  alt="bootstrap logo"  />
       
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react logo"  />
   
   <img src="https://skillicons.dev/icons?i=redux" alt="redux logo"  />
   
@@ -33,8 +32,17 @@ function Icons() {
       
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git logo"  />
   
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs"/>
+  
 
+  
+  <img src="https://skillicons.dev/icons?i=mongodb" alt="mongodb logo"  />
+  
+  <img src="https://skillicons.dev/icons?i=express" alt="express logo"  />
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react logo"  />
+  
+
+  <img src="https://skillicons.dev/icons?i=nodejs" alt="nodejs logo"  />
 </div>
 
 
